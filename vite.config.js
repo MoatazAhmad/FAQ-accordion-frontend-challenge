@@ -7,6 +7,7 @@ import pug from 'vite-plugin-pug'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/FAQ-accordion-frontend-challenge",
   plugins: [
     vue(),
     pug()
